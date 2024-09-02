@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#bookInput {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+#shelvesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.shelfRow {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.shelf {
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    background-color: #ddd;
+    margin: 5px;
+    border: 1px solid #bbb;
+}
+
+.shelf.visible {
+    background-color: #90ee90; /* Light green for visible shelves */
+    font-weight: bold;
+}
